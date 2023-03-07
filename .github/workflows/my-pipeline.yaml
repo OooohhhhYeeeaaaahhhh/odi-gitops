@@ -21,7 +21,7 @@ jobs:
         with:
           image: ballin24x7/github-actions
           tags: v1, latest
-          #registry: registry-url.io
+          registry: registry-url.io
           #dockerfile: Dockerfile.ci
           dockerfile: app/Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
